@@ -1,0 +1,35 @@
+
+
+Vi que se puede instalar paquetes desde el PPA de Elementary OS
+
+Poner en la terminal:
+
+
+sudo add-apt-repository ppa:elementary-os/stable
+ sudo add-apt-repository ppa:elementary-os/os-patches
+
+sudo apt-get update
+
+
+Step 2: Add elementary Apps repo
+
+AppCenter is supposed to add this repository automatically, but that may not always happen. Add the repo and it's key:
+
+sudo bash -c 'echo "deb http://packages.elementary.io/appcenter $(lsb_release -sc) main" >> /etc/apt/sources.list.d/appcenter.list'
+sudo wget -O /etc/apt/trusted.gpg.d/appcenter.asc http://packages.elementary.io/key.asc
+sudo apt update
+
+sudo apt install xfe
+
+sudo xfe /etc/apt/sources.list.d
+
+
+Paquetes interesantes como los wallpapers de Elementary OS
+
+
+
+“elementary OS team” team
+https://launchpad.net/%7Eelementary-os/+archive/ubuntu/stable/+index?batch=75&memo=75&start=75
+
+
+

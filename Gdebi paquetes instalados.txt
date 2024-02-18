@@ -1,0 +1,34 @@
+
+
+diffstat gdebi gdebi-core gnome-icon-theme libaliased-perl libapt-pkg-perl
+  libb-hooks-endofscope-perl libb-hooks-op-check-perl libcapture-tiny-perl
+  libclass-data-inheritable-perl libclass-method-modifiers-perl
+  libclass-xsaccessor-perl libconfig-tiny-perl libcpanel-json-xs-perl
+  libdata-dpath-perl libdata-messagepack-perl libdata-optlist-perl
+  libdata-validate-domain-perl libdevel-callchecker-perl libdevel-size-perl
+  libdevel-stacktrace-perl libdynaloader-functions-perl
+  libemail-address-xs-perl libexception-class-perl libexporter-tiny-perl
+  libfile-find-rule-perl libfont-ttf-perl libhtml-html5-entities-perl
+  libimport-into-perl libio-string-perl libipc-run3-perl libiterator-perl
+  libiterator-util-perl libjson-maybexs-perl liblist-compare-perl
+  liblist-moreutils-perl liblist-moreutils-xs-perl liblist-utilsby-perl
+  libmarkdown2 libmodule-implementation-perl libmodule-runtime-perl
+  libmoo-perl libmoox-aliases-perl libmouse-perl libnamespace-clean-perl
+  libnet-domain-tld-perl libnumber-compare-perl libpackage-stash-perl
+  libpackage-stash-xs-perl libparams-classify-perl libparams-util-perl
+  libpath-tiny-perl libperlio-gzip-perl libproc-processtable-perl
+  libreadonly-perl libref-util-perl libref-util-xs-perl librole-tiny-perl
+  libsereal-decoder-perl libsereal-encoder-perl libstrictures-perl
+  libsub-exporter-perl libsub-exporter-progressive-perl libsub-identify-perl
+  libsub-install-perl libsub-name-perl libsub-quote-perl libtext-glob-perl
+  libtext-levenshteinxs-perl libtext-markdown-discount-perl
+  libtext-xslate-perl libtime-duration-perl libtime-moment-perl
+  libtype-tiny-perl libtype-tiny-xs-perl libunicode-utf8-perl
+  libvariable-magic-perl libxml-libxml-perl libxml-namespacesupport-perl
+  libxml-sax-base-perl libxml-sax-expat-perl libxml-sax-perl
+  libyaml-libyaml-perl lintian lzip lzop patchutils python3-debian t1utils
+  
+  Se necesita descargar 15,3 MB de archivos.
+Se utilizarán 34,7 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+

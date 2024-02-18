@@ -1,0 +1,29 @@
+
+
+
+https://itsfoss.com/three-finger-swipe-gnome/
+
+sudo add-apt-repository ppa:touchegg/stable
+sudo apt update
+sudo apt install touchegg
+
+
+
+
+With that done, you should go ahead and install the X11 Gestures extension.
+Install and enable X11 Gestures GNOME extension
+
+I have written in detail about how to use GNOME extensions, so I am not going to repeat the steps here.
+
+Go to the extension page and enable it:
+x11 gestures gnome extensionX11 Gestures gnome extension
+
+https://itsfoss.com/gnome-shell-extensions/
+
+Go to the extension page and enable it:
+
+https://extensions.gnome.org/extension/4033/x11-gestures/
+
+
+
+https://itsfoss.com/three-finger-swipe-gnome/

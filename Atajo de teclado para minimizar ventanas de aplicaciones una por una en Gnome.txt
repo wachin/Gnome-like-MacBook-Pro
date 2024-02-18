@@ -1,0 +1,12 @@
+
+Atajo de teclado para minimizar ventanas de aplicaciones una por una en Gnome.txt
+
+
+Con el atajo de teclado:
+
+Super + H
+
+
+Is there a Gnome Shell shortcut to minimize a window? - Super User
+https://superuser.com/questions/1130388/is-there-a-gnome-shell-shortcut-to-minimize-a-window/1130405
+https://superuser.com/a/1130405

@@ -1,0 +1,4 @@
+# Debian bullseye Updates
+deb http://deb.debian.org/debian/ bullseye-updates main contrib non-free 
+
+

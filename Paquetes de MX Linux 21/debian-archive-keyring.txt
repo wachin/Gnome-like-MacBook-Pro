@@ -1,0 +1,2 @@
+#!/bin/sh
+wget -c http://deb.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2021.1.1_all.deb

@@ -1,0 +1,15 @@
+
+
+
+Como Revertir la dirección del desplazamiento (scrolling) con los dos dedos del touchpad en Gnome
+
+
+Install gnome-control-center than open it.
+
+Select Devices from the side Navigation bar than select Mouse & Touchpad.
+
+There you will find the option to toggle Natural Scrolling
+
+debian - How to reverse the direction of Touchpad two-finger scrolling in Wayland Gnome? - Unix & Linux Stack Exchange
+https://unix.stackexchange.com/questions/397445/how-to-reverse-the-direction-of-touchpad-two-finger-scrolling-in-wayland-gnome
+https://unix.stackexchange.com/a/397455

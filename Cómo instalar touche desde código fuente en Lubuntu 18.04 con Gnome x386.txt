@@ -1,0 +1,8 @@
+
+
+
+
+
+sudo apt-get install gobject-introspection libx11-dev
+
+

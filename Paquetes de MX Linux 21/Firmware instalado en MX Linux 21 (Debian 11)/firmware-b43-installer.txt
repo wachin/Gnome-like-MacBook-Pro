@@ -1,0 +1,5 @@
+#!/bin/sh
+wget -c http://deb.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2021.1.1_all.deb
+wget -c http://deb.debian.org/debian/pool/contrib/b/b43-fwcutter/b43-fwcutter_019-7_i386.deb
+wget -c http://deb.debian.org/debian/pool/contrib/b/b43-fwcutter/firmware-b43-installer_019-7_all.deb
+wget -c http://deb.debian.org/debian/pool/contrib/b/b43-fwcutter/firmware-b43legacy-installer_019-7_all.deb

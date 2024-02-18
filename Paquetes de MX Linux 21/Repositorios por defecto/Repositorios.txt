@@ -1,0 +1,20 @@
+
+
+http://deb.debian.org/debian/
+bullseye-updates
+non-free contrib main      
+
+http://deb.debian.org/debian/
+bullseye
+non-free contrib main     
+
+http://security.debian.org/debian-security/
+bullseye-security
+non-free contrib main   
+
+http://mirror.cedia.org.ec/mx-workspace/mx/repo/
+bullseye
+main non-free 
+
+
+ 

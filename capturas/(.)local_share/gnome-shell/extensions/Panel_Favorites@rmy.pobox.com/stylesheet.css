@@ -1,0 +1,16 @@
+.panel-favorites {
+    spacing: 6px;
+}
+
+.panel-launcher-icon {
+    icon-size: 1.5em;
+}
+
+.panel-launcher-label {
+    border-radius: 7px;
+    padding: 4px 12px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    text-align: center;
+    -y-offset: 6px;
+}

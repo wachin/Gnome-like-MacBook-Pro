@@ -1,0 +1,103 @@
+
+
+Qué instalar en Gnome para que se parezca a MAC OS
+
+Primero debemos descargar Gnome Debian 11
+
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.1.0-live+nonfree/i386/iso-hybrid/
+
+enlace directo:
+
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.1.0-live+nonfree/i386/iso-hybrid/debian-live-11.1.0-i386-gnome+nonfree.iso
+
+
+Allí instalar lo siguiente
+
+sudo apt install vlc gthumb 
+
+gnome-tweak-tool
+
+
+DASH TO DOCK
+En Debian 11 Gnome hay que instalar todo lo de las extensiones de Gnome y de allí activarla en:
+
+https://extensions.gnome.org/extension/307/dash-to-dock/
+
+
+Instala este paquete así:
+
+sudo apt install gnome-shell-extension-dashtodock
+
+esta hay que activarla en gnome-tweak-tool y configurarla
+
+
+MOSTRAR EL ESCRITORIO
+
+https://extensions.gnome.org/extension/1194/show-desktop-button/
+
+
+ATAJOS DE TECLADO
+Esta extensión es muy importante porque enseña cómo manejar el sistema:
+
+sudo apt install gnome-shell-extension-shortcuts
+
+
+MÁS EXTENSIONES DE GNOME
+
+en synaptic se pueden encontrar más extensiones buscando así:
+
+gnome-shell-extensions
+
+
+
+**********************
+TEMA DE ICONOS Y GTK
+**********************
+
+How to Make GNOME Desktop Look Like MacOS Big Sur
+https://www.youtube.com/watch?v=jT1RnyGJRMU
+
+This video shown step by step how to make GNOME Desktop Look Like MacOS Big Sur. In this video, I use Ubuntu for implementing the theme look like mac big sur. This tutorial also work on Linux Distribution which using GNOME Desktop such as Fedora Workstation, Pop_OS, Zorin OS, Manjaro GNOME edition, Mageia GNOME Edition, Debian with GNOME Desktop, Solus OS GNOME Edition and Arch with GNOME Desktop.
+
+(00:00) -  Intro 
+
+(00:16) -  Final Result 
+
+(01:51) - Install And Enable Theme
+Download Theme WhiteSur : https://www.pling.com/p/1403328/
+
+(05:48) - Install And Enable Icon Theme
+Download BigSur Icon Theme : https://www.pling.com/p/1399044/
+
+(07:22) - Install And Enable Cursors
+Download McMojave Cursors : https://www.pling.com/p/1355701/
+
+(09:27) - Install And Configure Cairo-dock
+sudo apt install cairo-dock
+Theme Cairo Dock : https://www.pling.com/p/1401527/
+
+(13:59) - Install And Configure Albert-launcher
+Install Albert-Launcher : https://albertlauncher.github.io/docs...
+
+Command Launchpad Cairo-dock : https://docs.google.com/document/d/1T...
+
+(16:16) - Change Login Screen Background
+sudo apt install git libglib2.0-dev
+git clone https://github.com/PRATAP-KUMAR/focal...
+sudo ./focalgdm3/focalgdm3 --set
+
+(17:53) - Change Wallpaper, Lock Screen And Additional Settings
+Wallpaper : 
+https://www.pling.com/p/1399346
+
+
+
+
+
+****
+revisar
+******
+
+
+https://askubuntu.com/questions/1281943/ubuntu-20-04-themes-and-icon-are-not-expected
+

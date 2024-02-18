@@ -1,0 +1,4 @@
+#!/bin/sh
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/main/m/mx21-archive-keyring/mx21-archive-keyring_2021.2.19_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/main/m/mx-gpg-keys/mx-gpg-keys_21.09.04_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/main/x/xfce-superkey-mx/xfce-superkey-mx_21.09.01_i386.deb

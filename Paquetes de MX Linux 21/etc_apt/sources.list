@@ -1,0 +1,8 @@
+#this file is empty by default.  Sources are under /etc/apt/souces.list.d
+
+
+# deb http://mxrepo.com/mx/testrepo/ bullseye test  
+
+
+
+

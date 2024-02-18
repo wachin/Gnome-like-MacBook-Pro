@@ -1,0 +1,6 @@
+
+
+lspci -nn | grep Network
+
+
+

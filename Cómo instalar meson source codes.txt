@@ -1,0 +1,51 @@
+
+
+
+sudo apt-get install python3 python3-pip python3-setuptools \
+                       python3-wheel ninja-build
+
+
+
+
+Installation using Python
+
+Requirements: pip3
+
+The best way to receive the most up-to-date version of Mesonbuild.
+
+Install as a local user (recommended):
+
+$ pip3 install --user meson
+
+or:
+
+Install as root:
+
+$ pip3 install meson
+
+Luego poner en la terminal:
+
+echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc
+
+reiniciar el ordenador para que el sistema pueda reconocer esa ruta para los ejecutables allí presentes
+
+
+Para compilar
+
+$ cd /path/to/source/root
+$ meson builddir && cd builddir
+$ meson compile
+$ meson test
+
+Instalar meson usando python
+https://mesonbuild.com/Quick-guide.html#installation-using-python
+https://mesonbuild.com/Quick-guide.html
+
+
+
+ Beginners question #4890 
+https://github.com/mesonbuild/meson/issues/4890
+https://github.com/mesonbuild/meson/issues/4890#issuecomment-461145250
+
+
+

@@ -1,0 +1,122 @@
+ Cómo ver la información del controlador inalambrico de Wi-Fi desde la Terminal en Linux
+Información del Sistema · Wi-Fi
+https://facilitarelsoftwarelibre.blogspot.com/2021/11/como-ver-la-informacion-del-wi-fi-desde-una-terminal.html
+
+Este tutorial ha sido hecho en MX Linux 21, pero los comandos deberían funcionar en otros Linux
+
+Esto serviría para saber cual buscar para instalar
+Para encontrar el nombre de la Tarjeta Wireless
+
+ poner en la terminal:
+
+lspci -v | grep Wireless
+
+ en mi caso en mi laptop Dell Inspiron 1750 me devuelve así:
+
+
+ 
+
+
+Si en su ordenador tiene algun Adaptador USB de Wi-Fi
+
+ poner:
+
+lsusb -v | grep Wireless
+
+
+Para saber el nombre del Controlador
+
+poner:
+
+lspci -nn | grep Network
+
+en mi caso me devuelve:
+
+
+ 
+
+se puede copiar esa información de texto, ejemplo aquíla pongo:
+
+0c:00.0 Network controller [0280]: Broadcom Inc. and subsidiaries BCM4312 802.11b/g LP-PHY [14e4:4315] (rev 01)
+
+de eso lo que me sirve mucho es:
+
+Broadcom BCM4312
+
+así que si busco en synaptic la palabra:
+
+broadcom
+
+me aparece:
+
+
+ese paquete:
+
+b43-fwcutter
+
+que ya lo tengo instalado dice:
+
+
+
+    This package provides a tool for extracting BCM43xx wireless chip
+    firmware from Broadcom's proprietary driver files.
+
+    It is used by the firmware-b43(legacy)-installer packages as part of
+    the automated process of downloading and installing firmware.
+
+
+lo que significa:
+
+    Este paquete proporciona una herramienta para extraer el chip inalámbrico BCM43xx firmware de los archivos del controlador propietario de Broadcom.
+
+    Lo utilizan los paquetes de instalación de firmware-b43 (heredado) como parte de
+    el proceso automatizado de descarga e instalación de firmware.
+
+
+y también el otro paquete:
+
+broadcom-sta-dkms
+
+dice:
+
+
+    dkms source for the Broadcom STA Wireless driver
+     
+    Broadcom STA is a binary-only device driver to support the following IEEE
+    802.11a/b/g/n wireless network cards: BCM4311-, BCM4312-, BCM4313-,
+    BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+    BCM4331-, BCM4360-, and BCM4352-based hardware.
+
+    This package provides the source code for the wl kernel modules and makes use
+    of the DKMS build utility to install them for the running kernel. The
+    alternative package broadcom-sta-source can be used instead in case of build
+    problems.
+
+    The wireless-tools package is also required in order to make use of these
+    modules. Kernel source or headers are required to compile these modules.
+
+
+que traducido es:
+
+    fuente dkms para el controlador Broadcom STA Wireless
+     
+    Broadcom STA es un controlador de dispositivo solo binario para admitir el siguiente IEEE
+    Tarjetas de red inalámbrica 802.11a / b / g / n: BCM4311-, BCM4312-, BCM4313-,
+    BCM4321-, BCM4322-, BCM43142-, BCM43224-, BCM43225-, BCM43227-, BCM43228-,
+    Hardware basado en BCM4331, BCM4360 y BCM4352.
+
+    Este paquete proporciona el código fuente para los módulos del kernel wl y utiliza
+    de la utilidad de compilación DKMS para instalarlos para el kernel en ejecución. los
+    El paquete alternativo broadcom-sta-source se puede utilizar en su lugar en caso de compilación
+    problemas.
+
+    El paquete de herramientas inalámbricas también es necesario para hacer uso de estos
+    módulos. Se requieren fuentes o encabezados del kernel para compilar estos módulos.
+
+y como ven allí está el driver que necesito:
+
+
+Nota: Si bien es cierto en MX Linux 21 ya vienen instalados esos paquetes y funciona el Wi-Fi esta investigación podría servir para otros Linux como ejemplo Debian Gnome u otra versión donde pueda que no funcione el Wi-Fi de alguna Laptop o PC
+
+
+

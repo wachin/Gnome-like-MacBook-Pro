@@ -1,0 +1,75 @@
+
+En Lubuntu 18.04
+
+DAILY
+
+sudo apt install language-selector-common libnoise-core0 noise switchboard contractor elementary-icon-theme elementary-wallpapers xdg-desktop-portal pantheon-agent-polkit plank plymouth plymouth-label plymouth-theme-elementary switchboard-plug-a11y switchboard-plug-bluetooth switchboard-plug-datetime switchboard-plug-notifications switchboard-plug-pantheon-shell switchboard-plug-parental-controls switchboard-plug-printers switchboard-plug-security-privacy switchboard-plug-sharing switchboard-plug-sound touchegg wingpanel-indicator-a11y wingpanel-indicator-keyboard wingpanel-indicator-nightlight wingpanel-indicator-session wingpanel-indicator-sound xdg-desktop-portal-gtk elementary-os-overlay fonts-capture-it-elementary fonts-croscore-config-elementary fonts-daniel-elementary fonts-elementary-core fonts-elementary-extra fonts-hvd-bodedo-elementary fonts-jenna-sue-elementary fonts-limelight-elementary fonts-lobster-elementary fonts-operating-instructions-elementary fonts-plainblack-elementary fonts-raleway-elementary fonts-redacted-elementary fonts-roboto-mono-elementary io.elementary.feedback io.elementary.notifications io.elementary.onboarding geoclue-2.0 io.elementary.print io.elementary.sound-theme io.elementary.switchboard.wacom libgeoclue-2-0 libplank-common libplank1 libplymouth4 libswitchboard-2.0-0 pantheon-agent-geoclue2 libgtksourceview-3.0-1 libhandy-0.0-0 pantheon-greeter io.elementary.tasks elementary-default-settings pantheon-files pantheon-mail pantheon-terminal pantheon-photos pantheon-print screenshot-tool elementary-theme
+
+
+elementary-keyring
+
+desktop-file-utils mutter 
+
+
+E: No se ha podido localizar el paquete distinst
+E: No se ha podido localizar el paquete elementary-desktop
+E: No se ha podido localizar el paquete plymouth-theme-spinner
+
+
+Los siguientes paquetes tienen dependencias incumplidas:
+ pantheon-xsession-settings : Depende: pantheon-shell pero no es instalable
+
+
+https://gitlab.com/pantheon-debian/pantheon-xsession-settings
+https://gitlab.com/pantheon-debian/pantheon-shell
+
+
+************************************************************************************************
+
+sudo apt install libostree-1-1 flatpak libflatpak0
+
+
+
+
+***************************************************************
+pilas en instalar 
+
+gala pues el el administrador de ventanas
+
+elementary-default-settings
+
+pantheon-greeter login screen
+
+switchboard Modular Settings Hub
+
+
+NO APARECEN
+
+E: No se ha podido localizar el paquete libhandy-1-0
+E: No se ha podido localizar el paquete malcontent
+E: No se ha podido localizar el paquete io.elementary.contractor.file-roller
+E: No se ha podido localizar el paquete io.elementary.terminal
+E: No se ha podido localizar el paquete libdistinst
+E: No se ha podido localizar el paquete libgtksourceview-4-0
+E: No se ha podido localizar el paquete libgtksourceview-4-common
+
+
+
+
+
+
+LOS SIGUIENTES NO APARECEN:
+
+sudo apt install libostree-1-1 flatpak geoclue-2.0 gir1.2-malcontent-0 libmalcontent-0-0 libplymouth5
+
+
+
+What you mean by that? Do I need a graphical login?
+https://bbs.archlinux.org/viewtopic.php?id=152930&p=29
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+
+
+aspell
+ispell ejemplo irussian ipolish ingerman 
+
+idiomas de libreoffice
+idiomas de firefox
+
+hunspell
+
+
+usr/share/fonts/truetype/noto  pesa 480 MB
+usr/share/fonts/opentype/noto  pesa 306 MB
+
+En synaptic las fuentes chinas pesan mucho
+
+fonts-noto-cjk  
+fonts-noto-cjk-extra
+
+
+

@@ -1,0 +1,18 @@
+#!/bin/sh
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-ipw2x00_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-amd-graphics_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-atheros_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-bnx2_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-bnx2x_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-brcm80211_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-intel-sound_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-intelwimax_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-libertas_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-misc-nonfree_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-linux_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-linux-nonfree_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-myricom_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-netxen_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-qlogic_20210818-1%7emx21%2b1_all.deb
+wget -c http://mirror.cedia.org.ec/mx-workspace/mx/repo/pool/non-free/f/firmware-nonfree/firmware-realtek_20210818-1%7emx21%2b1_all.deb

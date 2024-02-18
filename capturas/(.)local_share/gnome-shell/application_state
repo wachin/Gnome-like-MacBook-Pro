@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="clipgrab.desktop" score="15" last-seen="1636325243"/>
+    <application id="gnome-control-center.desktop" score="115" last-seen="1636325174"/>
+    <application id="caja.desktop" score="9" last-seen="1636325144"/>
+    <application id="xfi.desktop" score="2" last-seen="1635997876"/>
+    <application id="org.gnome.LightsOff.desktop" score="0" last-seen="1636325206"/>
+    <application id="org.gnome.tweaks.desktop" score="111" last-seen="1636314842"/>
+    <application id="vlc.desktop" score="1" last-seen="1636325491"/>
+    <application id="software-properties-gtk.desktop" score="9" last-seen="1636129433"/>
+    <application id="org.gnome.eog.desktop" score="13" last-seen="1636132578"/>
+    <application id="org.gnome.Software.desktop" score="4" last-seen="1636030492"/>
+    <application id="org.gnome.Screenshot.desktop" score="9" last-seen="1636133966"/>
+    <application id="wps-office-et.desktop" score="8" last-seen="1636135289"/>
+    <application id="wps-office-wps.desktop" score="18" last-seen="1636142293"/>
+    <application id="gnome-initial-setup.desktop" score="3" last-seen="1635987304"/>
+    <application id="wps-office-wpp.desktop" score="7" last-seen="1636234280"/>
+    <application id="org.gnome.Calculator.desktop" score="2" last-seen="1636135970"/>
+    <application id="pluma.desktop" score="61" last-seen="1636314369"/>
+    <application id="org.gnome.Calendar.desktop" score="2" last-seen="1636324694"/>
+    <application id="xfw.desktop" score="17" last-seen="1636129677"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="31" last-seen="1636314840"/>
+    <application id="org.gnome.Terminal.desktop" score="873" last-seen="1636376820"/>
+    <application id="arandr.desktop" score="5" last-seen="1636147232"/>
+    <application id="org.gnome.Four-in-a-row.desktop" score="142" last-seen="1636142458"/>
+    <application id="xfe.desktop" score="68" last-seen="1636314824"/>
+    <application id="org.gnome.Nautilus.desktop" score="708" last-seen="1636377991"/>
+    <application id="yelp.desktop" score="9" last-seen="1636313643"/>
+    <application id="org.gnome.Evince.desktop" score="1" last-seen="1636324893"/>
+    <application id="org.gnome.Totem.desktop" score="6" last-seen="1636324586"/>
+    <application id="gnome-system-monitor.desktop" score="31" last-seen="1636150021"/>
+    <application id="rhythmbox.desktop" score="0" last-seen="1636325495"/>
+    <application id="org.gnome.Firmware.desktop" score="1" last-seen="1635998297"/>
+    <application id="synaptic.desktop" score="667" last-seen="1636378011"/>
+    <application id="com.github.robertsanseries.ciano.desktop" score="0" last-seen="1636324117"/>
+    <application id="org.gnome.baobab.desktop" score="48" last-seen="1636035605"/>
+    <application id="org.gnome.gedit.desktop" score="257" last-seen="1636325309"/>
+    <application id="shutter.desktop" score="4" last-seen="1636324044"/>
+    <application id="org.gnome.Todo.desktop" score="0" last-seen="1636325188"/>
+    <application id="firefox-esr.desktop" score="2037" last-seen="1636378017"/>
+  </context>
+</application-state>

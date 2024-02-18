@@ -1,0 +1,8 @@
+
+
+
+wget -c http://ppa.launchpad.net/elementary-os/stable/ubuntu/pool/main/e/elementary-icon-theme/elementary-icon-theme_6.0.0+r2248+pkg19~ubuntu6.1_all.deb
+
+wget -c http://ppa.launchpad.net/elementary-os/stable/ubuntu/pool/main/e/elementary-icon-theme/elementary-icon-theme_6.0.0+r2248+pkg19~ubuntu6.1_all.deb
+
+
